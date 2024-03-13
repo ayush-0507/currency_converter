@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Convertor</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="navBar">
+                <h1>Currency Converter</h1>
+            </div>
+        </nav>
+
+    </header>
+
+    <div class="content">
+
+      <form id="myForm">
+        <label for="name" id="val">Enter Amount:</label>
+        <input id="name" type="number" placeholder="Amount"/>
+      </form>
+
+      <div class="from">
+        <div class="para1">
+            <p>From:</p>
+        </div>
+        
+        <div class="image1">
+            <img src="https://flagsapi.com/US/flat/64.png">
+          </div>
+
+        <div class="selectFrom">
+            <select class="select1">
+                <!-- <option class="o1" value="0">INR</option>
+                <option class="o2"  value="1" selected >USD</option>
+                <option class="o3" value="2">AUD</option>
+                <option class="o4" value="3">JPY</option> -->
+              </select>
+        </div>
+       
+      </div>
+
+      
+
+       <div class="to">
+        <div class="para2">
+            <p>To:</p>
+        </div>
+          <div class="image2">
+            <img src="https://flagsapi.com/IN/flat/64.png">
+          </div>
+        
+  
+        <div class="selectFrom">
+            <select class="select2">
+                <!-- <option class="o1" value="0">INR</option>
+                <option class="o2" value="1">USD</option>
+                <option class="o3" value="2">AUD</option>
+                <option class="o4" value="3">JPY</option> -->
+              </select>
+        </div>
+       </div>
+
+       <div class="button">
+        <button id="btn">Convert</button>
+       </div>
+
+       <div class="result">
+        <p id="res"></p>
+       </div>
+      
+      
+
+    </div>
+
+    <script src="currency-code.js">
+
+    </script>
+
+
+    <script src="app.js">
+
+    </script>
+</body>
+</html>

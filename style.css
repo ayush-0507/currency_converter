@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+body{
+    height: 100%;
+    background-color: blanchedalmond;
+}
+
+.navBar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(13, 3, 68);
+    height: 15vh;
+}
+
+.navBar h1{
+    font-size: 3rem;
+    color: azure;
+
+}
+
+.content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    align-items: center;
+    
+}
+
+#val{
+    font-size: 1.5rem;
+}
+
+#name{
+    height: 2rem;
+    width: 20vw;
+    border: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.from{
+    display: flex;
+    width: 20vw;
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+
+
+.to{
+    display: flex;
+    width: 20vw;
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.para1{
+    display: flex;
+    align-items: center;
+}
+
+.para2{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.select{
+    height: 20px;
+}
+
+.selectFrom{
+    display: flex;
+    align-items: center;
+}
+
+.button{
+    margin-top: 40px;
+}
+
+#btn{
+   width: 20vw;
+   height: 40px;
+   font-size: 2rem;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-color: rgb(222, 174, 213);
+   color: blue;
+   cursor: pointer;
+}
+
+.result p{
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
